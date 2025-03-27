@@ -42,22 +42,7 @@ function App() {
               </Card>
             </Col>
           </Row>
-          
-          {/* Extra Card */}
-          <Row className="mt-4">
-            <Col md={4}>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://via.placeholder.com/150" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+        
         </Container>
       </div>
     </>
